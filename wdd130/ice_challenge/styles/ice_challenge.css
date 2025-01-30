@@ -1,0 +1,38 @@
+body{
+    background-color:#4997d0;
+    text-align: center;
+    color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1:hover{
+    color: black;
+}
+
+img{
+    height: 500px;
+    width: 400px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+ol{
+    color:black;
+    text-align: left;
+    list-style-position: right;
+    font-weight: bold;
+}
+
+.quote_b{
+    font-size: 40px;
+}
+
+.footer{
+    color:black;
+    font-weight: bold;
+}
