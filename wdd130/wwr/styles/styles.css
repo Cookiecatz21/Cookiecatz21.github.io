@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rye&display=swap');
+
 body{
  background-color: #f7eade;
 }
@@ -13,7 +15,6 @@ header{
 
 .logo{
     width: 80px;
-    height: 80px;
 }
 
 nav{
@@ -45,6 +46,7 @@ nav a{
 
 .home{
     color: #42271c;
+    font-family: "rye";
 }
 
 .shop{
@@ -86,10 +88,11 @@ footer p {
 
 footer p a{
     color: #f7eade;
+    text-decoration: none;
 }
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #0b3d22;
     background-color: #f7eade;
 
