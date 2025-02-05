@@ -1,0 +1,15 @@
+img.circles{
+    width: 1600px;
+    text-align: center;
+}
+
+img.small{
+    width: 250px;
+    border-radius: 50%;
+    margin: 50px 125px;
+    outline: 15px solid #444444;
+}
+
+body{
+    background-color: #737373;
+}
