@@ -3,6 +3,8 @@
 body{
  background-color: #f7eade;
  font-size: 22px;
+ margin: 0;
+ padding: 0;
 }
 
 header{
@@ -16,6 +18,11 @@ header{
 
 .logo{
     width: 80px;
+    padding-top: 10px;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 nav{
@@ -32,6 +39,7 @@ nav a{
     text-align: center;
     color: #f7eade;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-img{
@@ -50,6 +58,7 @@ nav a{
     color: #42271c;
     font-family: "rye", Georgia, serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 .below_home{
@@ -63,12 +72,15 @@ nav a{
     color: #0b3d22;
     font-family: "Roboto", Helvetica, sans-serif;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 
 }
 
 .shop:hover{
     background-color: #0b3d22;
     color: #f7eade;
+    border-radius: 5px;
 }
 
 .button-box{
@@ -81,6 +93,18 @@ main section{
     font-family: "Roboto", Helvetica, sans-serif;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
+.card{
+    margin: 200px 0px;
+}
+
+.card-img{
+    border: 10px solid #42271c
+}
+
 #background {
     height: 725px;
     background-color: #0b3d22;
@@ -88,6 +112,7 @@ main section{
 
 .msg{
     color: #42271c;
+    padding: 35px;
 }
 
 .msg h2{
@@ -97,11 +122,14 @@ main section{
 .msg p{
     font-family: "Roboto", Helvetica, sans-serif;
     font-size: 1.5em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #42271c;
     font-family: "Roboto", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -118,5 +146,8 @@ footer p a:hover {
     text-decoration: none;
     color: #0b3d22;
     background-color: #f7eade;
-
 }    
+
+footer .social img{
+    padding-top: 15px;
+}
