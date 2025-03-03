@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rye&display=swap');
+
+body{
+    background-color: #f7eade;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+   }
+   
+   header{
+       background-color: rgba(11, 61, 34, 0.7);
+       display: grid;
+       grid-template-columns: 150px auto;
+   }
+   
+   #content{
+       max-width:1600px;
+       margin: 0 auto;
+   }
+   
+   .logo{
+       width: 80px;
+       padding-top: 10px;
+   }
+   
+   #logo_link{
+       padding-top: 5px;
+       justify-self: center;
+       align-self: center;
+   }
+   
+   nav{
+       text-align: center;
+       font-family: "Roboto", Helvetica, sans-serif;
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   nav a:hover{
+       background-color: #f7eade;
+       color: black;
+   }
+   
+   nav a{
+       text-align: center;
+       color: #f7eade;
+       text-decoration: none;
+       padding: 35px;
+   }
+
+#title{
+    text-align: center;
+    font-family: "rye", Georgia, serif;
+    color: #42271c;
+}
+
+main img{
+    width: 300px;
+    margin: 50px;
+    border: 10px solid #42271c;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: (10% 1fr 10% 1fr 10% 1fr 10% 1fr);
+    text-align: center;
+}
+
+main h3{
+    font-family: "rye", Georgia, serif;
+}
+
+main{
+    text-align: center;
+    color: #42271c;
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+#rafts-1 {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    place-items: center;
+}
+
+#helmets-1 {
+    grid-column: 1;
+    grid-row: 3 / 5;
+}
+
+#life_vest-1 {
+    grid-column: 1;
+    grid-row: 5 / 7;
+}
+
+#oars-1 {
+    grid-column: 1;
+    grid-row: 7 / 9;
+}
+
+.rafts_h{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.rafts_p{
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 30px;
+}
+
+.helmets_h{
+    text-align: center;
+    grid-column: 2;
+    grid-row:3;
+}
+
+.helmets_p{
+    grid-column: 2;
+    grid-row: 4;
+    margin-right: 30px;
+}
+
+.life_vest_h{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.life_vest_p{
+    grid-column: 2;
+    grid-row: 6;
+    margin-right: 30px;
+}
+
+.oars_h{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.oars_p{
+    grid-column: 2;
+    grid-row: 8;
+    margin-right: 30px;
+}
+
+.shop{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    background-color: #0b3d22;
+    border-radius: 5px;
+}
+
+.shop:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.button-box{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #42271c;
+    font-family: "Roboto", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: #f7eade;
+}
+
+footer p a{
+    color: #f7eade;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: #0b3d22;
+    background-color: #f7eade;
+}    
+
+footer .social img{
+    padding-top: 15px;
+}
