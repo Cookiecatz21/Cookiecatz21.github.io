@@ -63,7 +63,7 @@ main img{
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: (10% 1fr 10% 1fr 10% 1fr 10% 1fr);
+    grid-template-rows: 10% 1fr 10% 1fr 10% 1fr 10% 1fr;
     text-align: center;
 }
 
