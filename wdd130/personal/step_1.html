@@ -19,35 +19,68 @@
             <a href="step_4.html">Step 4 Background</a>
             <a href="step_5.html">Step 5 Equip & Spells</a>
     </header>
-        <p intro>
+    <h1>
+        Step 1: Species
+    </h1>
+        <p id="intro">
             Step 1 is picking your character’s species. A species or race is what a person is. Are they a magical elf, 
             a loud dwarf or are they an unoriginal human. This step sets up what you are and what you look like. Each 
             species has a list of characteristics to think about when you choose them. Those characteristics are as 
-            follows:<br>An Ability increase, all species give a small raise to two stats (more on this in step 3).<br>Age, 
-            all species have different lifespans and mature at different ages.<br>Alignment, more will be said on alignment 
-            in step 4, but each species tend to learn to certain alignments.<br>Size, species have different heights and 
-            weights, each species is also considered medium or small in size.<br>Speed refers to how far a species can walk 
-            in 6 seconds or one turn.<br>Abilities are also given, which are important benefits that your character will be 
-            able to do when necessary.<br>Languages are also given; these help you talk with other characters who don’t speak 
-            the common language.<br>Lineages, some species come from different lineages or sub-species which give a few more abilities.
+            follows:<br><b>An Ability increase,</b> all species give a small raise to two stats (more on this in step 3).<br><b>Age,</b> 
+            all species have different lifespans and mature at different ages.<br><b>Alignment,</b> more will be said on alignment 
+            in step 4, but each species tend to learn to certain alignments.<br><b>Size,</b> species have different heights and 
+            weights, each species is also considered medium or small in size.<br><b>Speed</b> refers to how far a species can walk 
+            in 6 seconds or one turn.<br><b>Abilities</b> are also given, which are important benefits that your character will be 
+            able to do when necessary.<br><b>Languages</b> are also given; these help you talk with other characters who don’t speak 
+            the common language.<br><b>Lineages,</b> some species come from different lineages or sub-species which give a few more abilities.
         </p>
-        <img class="dwarf_img" src="images/dwarf.png" alt="dwarf">
-        <p>
+    <h1>
+        examples:
+    </h1>
+    <main id="grid">
+        <img id="dwarf" src="images/dwarf.png" alt="dwarf">
+        <p id="p1">
             Dwarves are a resilient and proud race known for their strong connection to stone and metal. They are typically 
             short and stocky, standing around 4 to 5 feet tall, but they are as heavy as humans due to their dense build. 
             Dwarves are renowned for their craftsmanship, especially in forging weapons and armor, and they have a deep sense of tradition and honor.
         </p>
-        <img class="elf_img" src="images/elf.jpg" alt="elf">
-        <p>
+        <img id="elf" src="images/elf.jpg" alt="elf">
+        <p id="p2">
             Elves are an elegant and mystical race known for their grace, longevity, and connection to nature and magic. They are slender and tall, 
             typically standing between 5 and 6 feet, with pointed ears and an unearthly beauty. Elves are known for their long lifespans, often living 
             for hundreds of years, which gives them a unique perspective on the world.
         </p>
-        <img class="human_img" src="images/human.jpg" alt="human">
-        <p>
+        <img id="human" src="images/human.jpg" alt="human">
+        <p id="p3">
             Humans are the most versatile and adaptable race. They are often seen as the "jack-of-all-trades" of the fantasy world. While they may 
             lack the specialized traits of other races, their adaptability and ambition make them a popular choice for players.
         </p>
+    </main>
+
+<div id="myNav" class="overlay">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <div class="overlay-content">
+        <a href="step_1.html">Step 1 Species</a>
+        <a href="step_2.html">Step 2 Class</a>
+        <a href="step_3.html">Step 3 Stats</a>
+        <a href="step_4.html">Step 4 Background</a>
+        <a href="step_5.html">Step 5 Equip & Spells</a>
+    </div>
+  
+  </div>
+  
+  <div id="open" onclick="openNav()">Navagation</div>
+  <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+  </script>
     <footer>
         <p>Simply Character &copy; 2025</p>
         <p>Character content can be found in offical D&D books and on Dndbeyond.com</p>

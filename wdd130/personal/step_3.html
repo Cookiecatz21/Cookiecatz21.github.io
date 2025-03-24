@@ -20,6 +20,31 @@
             <a href="step_5.html">Step 5 Equip & Spells</a>
     </header>
 
+
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+        <div class="overlay-content">
+            <a href="step_1.html">Step 1 Species</a>
+            <a href="step_2.html">Step 2 Class</a>
+            <a href="step_3.html">Step 3 Stats</a>
+            <a href="step_4.html">Step 4 Background</a>
+            <a href="step_5.html">Step 5 Equip & Spells</a>
+        </div>
+      
+      </div>
+      
+      <div id="open" onclick="openNav()">Navagation</div>
+      <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+      </script>
     <footer>
         <p>Simply Character &copy; 2025</p>
         <p>Character content can be found in offical D&D books and on Dndbeyond.com</p>

@@ -1,3 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Eagle+Lake&display=swap');
 img{
-    width: 500px;
+    width: 400px;
 }
+
+body{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: DM Serif text, Helvetica, sans-serif;
+ }
+ 
+ header{
+     background-color: #0D360D;
+     display: grid;
+     grid-template-columns: 150px auto;
+ }
+ 
+ #content{
+     max-width:1600px;
+     margin: 0 auto;
+ }
+ 
+ .logo{
+     width: 120px;
+     padding-top: 10px;
+ }
+ 
+ #logo_link{
+     padding-top: 5px;
+     justify-self: center;
+     align-self: center;
+ }
+ 
+ nav{
+     text-align: center;
+     font-family: "Roboto", Helvetica, sans-serif;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ nav a:hover{
+     background-color: #73df8e;
+     color: black;
+ }
+ 
+ nav a{
+     text-align: center;
+     color: #ffffff;
+     text-decoration: none;
+     padding: 35px;
+ }
+
+ h1{
+  font-family: "Eagle Lake", Helvetica, sans-serif;
+  text-align: center;
+}
+
+#intro{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr 100px 1fr 150px;
+  grid-template-rows: repeat(3, 100px 1fr);
+  place-items: center;
+  text-align: center;
+}
+
+#grid img{
+  border: 10px solid #73df8e;
+  border-radius: 1%;
+}
+
+#bard{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#p1{
+  grid-column: 4;
+  grid-row: 2;
+}
+
+#p2{
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#cleric{
+  grid-column: 4;
+  grid-row: 4;
+}
+
+#wizard{
+  grid-column: 2;
+  grid-row: 6;
+}
+
+#p3{
+  grid-column: 4;
+  grid-row: 6;
+}
+
+.overlay { 
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  #open{
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 50px;
+    background-color: #0D360D;
+    border-radius: 5px;
+  }
+
+  #open:hover{
+    background-color: #ffffff;
+    color: #0D360D;
+    border-radius: 5px;
+}
+
+footer{
+  background-color: #0D360D;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+
+footer p {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+footer p a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+}    

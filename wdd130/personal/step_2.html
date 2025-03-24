@@ -19,25 +19,32 @@
             <a href="step_4.html">Step 4 Background</a>
             <a href="step_5.html">Step 5 Equip & Spells</a>
     </header>
+    <h1>
+        Step 2: Class
+    </h1>
         <p id="intro">
             Step 2 will be picking your character’s class. A class is a person’s skill, what they trained to become. 
             At level one you will pick a class for your character. Think of it like a major or an occupation. 
-            Level one gives you some base features which include the following.<br>Hit points, this is how much 
+            Level one gives you some base features which include the following.<br><b>Hit Points,</b> this is how much 
             damage your character can take before fainting. Depending on your class you will have a certain amount 
-            plus your constitution modifier (which will be talked about more in step 3).<br>Proficiencies are given based 
-            on the class you choose. These include armor, weapons, tools, saves, and skills.<br>Equipment is also given; 
-            step 5 will talk more about this.<br>Abilities, which will be given to you as you level up, level one included.
+            plus your constitution modifier (which will be talked about more in step 3).<br><b>Proficiencies</b> are given based 
+            on the class you choose. These include armor, weapons, tools, saves, and skills.<br><b>Equipment</b> is also given; 
+            step 5 will talk more about this.<br><b>Abilities,</b> which will be given to you as you level up, level one included.
         </p>
-        <img class="bard_img" src="images/bard.jpg" alt="bard">
-        <p>
+        <h1>
+            Examples:
+        </h1>
+    <main id="grid">
+        <img id="bard" src="images/bard.jpg" alt="bard">
+        <p id="p1">
             The Bard is a versatile and
             charismatic class that blends magic, music
             and storytelling. Bards are known for their
             ability to inspire allies, manipulate foes, and
             weave spells through their performances.
         </p>
-        <img class="cleric_img" src="images/cleric.jpg" alt="cleric">
-        <p>
+        <img id="cleric" src="images/cleric.jpg" alt="cleric">
+        <p id="p2">
             The Cleric is a powerful and
             versatile class that combines divine magic
             with combat prowess. Clerics are devoted
@@ -45,8 +52,8 @@
             mortal agents, drawing on divine power to
             protect, heal, and smite enemies.
         </p>
-        <img class="wizard_img" src="images/wizard.jpg" alt="wizard">
-        <p>
+        <img id="wizard" src="images/wizard.jpg" alt="wizard">
+        <p id="p3">
             The Wizard is the
             quintessential spellcaster, revered for their
             mastery of arcane magic and their vast
@@ -54,6 +61,31 @@
             idea of manipulating the fabric of reality,
             wizards are your go-to class.
         </p>
+    </main>
+        <div id="myNav" class="overlay">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <div class="overlay-content">
+                <a href="step_1.html">Step 1 Species</a>
+                <a href="step_2.html">Step 2 Class</a>
+                <a href="step_3.html">Step 3 Stats</a>
+                <a href="step_4.html">Step 4 Background</a>
+                <a href="step_5.html">Step 5 Equip & Spells</a>
+            </div>
+          
+          </div>
+          
+          <div id="open" onclick="openNav()">Navagation</div>
+          <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+          </script>
     <footer>
         <p>Simply Character &copy; 2025</p>
         <p>Character content can be found in offical D&D books and on Dndbeyond.com</p>
