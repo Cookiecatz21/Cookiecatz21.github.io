@@ -53,6 +53,89 @@ body{
      padding: 35px;
  }
 
+ h1{
+  font-family: "Eagle Lake", Helvetica, sans-serif;
+  text-align: center;
+}
+
+#intro{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr 100px 1fr 150px;
+  grid-template-rows: repeat(6, 100px 1fr);
+  place-items: center;
+  text-align: center;
+}
+
+#grid img{
+  border: 10px solid #73df8e;
+  border-radius: 1%;
+}
+
+#str{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#p1{
+  grid-column: 4;
+  grid-row: 2;
+}
+
+#p2{
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#dex{
+  grid-column: 4;
+  grid-row: 4;
+}
+
+#con{
+  grid-column: 2;
+  grid-row: 6;
+}
+
+#p3{
+  grid-column: 4;
+  grid-row: 6;
+}
+
+#p4{
+  grid-column: 2;
+  grid-row: 8;
+}
+
+#int{
+  grid-column: 4;
+  grid-row: 8;
+}
+
+#wis{
+  grid-column: 2;
+  grid-row: 10;
+}
+
+#p5{
+  grid-column: 4;
+  grid-row: 10;
+}
+
+#p6{
+  grid-column: 2;
+  grid-row: 12;
+}
+
+#cha{
+  grid-column: 4;
+  grid-row: 12;
+}
+
 .overlay { 
     height: 100%;
     width: 0;
